@@ -1,0 +1,3 @@
+---
+providerRegex: ^(seraphin)$
+bypassDnsResolution: true
