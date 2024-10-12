@@ -24,7 +24,9 @@ nodes:
   - hostname: "seraphin"
     ipAddress: "192.168.1.151"
     installDisk: "/dev/nvme0n1"
-    talosImageURL: factory.talos.dev/installer/15c9b0da90e95dfdf8f4d4145714316291d81c7bc372f7f53ca71f93f7598b53
+    machineSpec:
+      secureboot: true
+    talosImageURL: factory.talos.dev/installer-secureboot/36f8e4d0f6e9a0c38430eabb3520b6afc81125d55b90639aa6be2ca16604d4f9
     controlPlane: true
     networkInterfaces:
       - deviceSelector:
