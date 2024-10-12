@@ -6,3 +6,5 @@ metadata:
   namespace: flux-system
 data:
   SETTING_EXAMPLE: Global settings for your cluster go in this file, this file is NOT encrypted
+  TIMEZONE: "America/New_York"
+  NAS_ADDRESS: 192.168.1.170
